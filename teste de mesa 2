@@ -1,0 +1,11 @@
+﻿using System;
+
+int[] v = new int[100];
+int numero = 2;
+v[0] = numero;
+int a = 2;
+while (a < 6) { 
+    v[0] = 10 * a;
+    Console.WriteLine(v[0]);
+    a ++;
+}
